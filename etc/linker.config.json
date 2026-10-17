@@ -1,0 +1,29 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_libtinyalsav2-x86_64-v2.so.so",
+		    "libdummy_binary_libtinyalsav2.a-x86_64-v2.so",
+		    "libdummy_binary_libtinyalsav2.a.so",
+		    "libdummy_binary_libtinyalsav2.so.so",
+		    "libdummy_binary_tinycap2-x86_64-v2.so",
+		    "libdummy_binary_tinycap2.so",
+		    "libdummy_binary_tinymix2-x86_64-v2.so",
+		    "libdummy_binary_tinymix2.so",
+		    "libdummy_binary_tinypcminfo2-x86_64-v2.so",
+		    "libdummy_binary_tinypcminfo2.so",
+		    "libdummy_binary_tinyplay2-x86_64-v2.so",
+		    "libdummy_binary_tinyplay2.so",
+		    "libdummy_ext_tinyalsa_new-x86_64-v2.so",
+		    "libdummy_ext_tinyalsa_new.so",
+		    "libdummy_headers_ext_tinyalsa_new-x86_64-v2.so",
+		    "libdummy_headers_ext_tinyalsa_new.so",
+		    "libdummy_shared_tinyalsa_new-x86_64-v2.so",
+		    "libdummy_shared_tinyalsa_new.so"
+	],
+	"requireLibs": [	
+		    "libc++_shared.so",
+		    "libc.so",
+		    "libdl.so",
+		    "libm.so"
+	],
+	"visible": true
+}

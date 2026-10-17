@@ -1,0 +1,6 @@
+shadow prebuilt repo: tinyalsa_new (target)
+  upstream: external/tinyalsa_new
+  api-level: 34 (branch 34-20261016)
+  blobs: org.blisslabs.ag.ext.tinyalsa_new.apex
+  dev-src: extracted extractive payload (libtinyalsav2.a, libtinyalsav2.so, tinyplay2, tinycap2, tinymix2, tinypcminfo2, headers) + root Android.bp
+  date: 2026-10-16

@@ -1,0 +1,58 @@
+// Auto-generated prebuilt Blueprint for external/tinyalsa_new
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.tinyalsa_new
+
+package {
+    default_applicable_licenses: ["external_tinyalsa_new_license"],
+}
+
+license {
+    name: "external_tinyalsa_new_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-BSD",
+        "SPDX-license-identifier-Unlicense",
+    ],
+    license_text: [
+        "NOTICE",
+    ],
+}
+
+cc_library_headers {
+    name: "libtinyalsav2_headers",
+    vendor_available: true,
+    export_include_dirs: ["include"],
+}
+
+cc_prebuilt_library {
+    name: "libtinyalsav2",
+    host_supported: true,
+    vendor_available: true,
+    export_include_dirs: ["include"],
+    static: {
+        srcs: ["lib/libtinyalsav2.a"],
+    },
+    shared: {
+        srcs: ["lib/libtinyalsav2.so"],
+    },
+}
+
+cc_prebuilt_binary {
+    name: "tinyplay2",
+    host_supported: true,
+    srcs: ["bin/tinyplay2"],
+}
+
+cc_prebuilt_binary {
+    name: "tinycap2",
+    srcs: ["bin/tinycap2"],
+}
+
+cc_prebuilt_binary {
+    name: "tinymix2",
+    srcs: ["bin/tinymix2"],
+}
+
+cc_prebuilt_binary {
+    name: "tinypcminfo2",
+    srcs: ["bin/tinypcminfo2"],
+}
